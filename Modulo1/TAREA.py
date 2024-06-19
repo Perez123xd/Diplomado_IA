@@ -1,4 +1,5 @@
- # Solicitar los dos números al usuario
+def main():
+    # Solicitar los dos números al usuario
     numero1 = float(input("Ingresa el primer número: "))
     numero2 = float(input("Ingresa el segundo número: "))
 
@@ -16,3 +17,6 @@
     print("3. Producto:", producto)
     print("4. Cubo de la suma:", cubo_suma)
     print("5. Cociente:", cociente)
+
+if __name__ == "__main__":
+    main()
