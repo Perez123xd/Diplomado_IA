@@ -10,8 +10,10 @@ while True:
             print("Categoría: Adulto")
         elif 65 <= edad <= 100:
             print("Categoría: Adulto Mayor")
+        elif 100 <= edad <= 150:
+            print("Categoría: Anciano con pie en tumba")
         else:
-            print("Edad inválida. Ingresa una edad entre 0 y 100.")
+            print("Edad inválida. Ingresa una edad entre 0 y 150.")
             continue  # Volver al inicio del bucle si la edad es inválida
 
         break  # Salir del bucle si la edad es válida
