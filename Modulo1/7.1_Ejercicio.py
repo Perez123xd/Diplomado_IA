@@ -1,4 +1,4 @@
-contador = 1  #Inicializar contador en 1
+contador = 1
 
 while contador <= 5:  #Contador es menor o igual a 5
     print(contador)  
