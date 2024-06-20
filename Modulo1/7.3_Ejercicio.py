@@ -6,7 +6,7 @@ while True:
 
         # Validar datos
         if temperatura < 0 or humedad < 0 or humedad > 100:
-            raise ValueError("Datos inválidos. La temperatura y humedad deben ser valores positivos, y la humedad no puede exceder el 100%.")
+            raise ValueError("Datos inválidos. Deben ser valores positivos, y la humedad no puede exceder el 100%.")
 
         # Analizar condiciones y recomendar acciones
         if temperatura > 30:
