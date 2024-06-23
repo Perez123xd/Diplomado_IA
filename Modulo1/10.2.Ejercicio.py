@@ -27,6 +27,6 @@ for estudiante in estudiantes:
 estudiantes_ordenados = sorted(estudiantes, key=lambda x: x["promedio"], reverse=True)
 
 # Imprimir resultados
-print("Estudiantes ordenados por promedio (descendente):")
+print("Estudiantes ordenados por promedio:")
 for estudiante in estudiantes_ordenados:
     print(f'{estudiante["nombre"]}: {estudiante["promedio"]:.2f}')  # Poner a 2 decimales
