@@ -18,7 +18,7 @@ estudiantes = [
     {"nombre": "Eva", "matematicas": 88, "literatura": 76, "ciencia": 85}
 ]
 
-# Calcular el promedio de cada estudiante y ordenarlos
+# Calcula promedio y ordenar
 for estudiante in estudiantes:
     calificaciones = list(estudiante.values())[1:]  # Obtener calificaciones
     promedio = sum(calificaciones) / len(calificaciones)  
